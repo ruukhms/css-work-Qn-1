@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+        <fieldset>
+            <legend>Academic information</legend>
+    
+            <p>
+                <label>
+                  Degree
+                  <select name="Degree">
+                    <option>Master of Bussiness Adninistration</option>
+                    
+                  </select>
+                </label>
+              </p>
+    
+            <p>
+              <label>Student ID: <input name="sdtid" /></label>
+            </p>
+    <p>
+            class attended:    
+                  
+            <select name="drop1" size="3" id="clasess" multiple="multiple">    
+            <option value="1">Geography</option>    
+            <option value="2">mathematic</option>    
+            <option value="3">English</option>    
+              
+            </select> 
+            
+    </p>
+          </fieldset>
+      <fieldset>
+        <legend>Personal Details</legend>
+
+        <p>
+          <label>First name: <input name="firstName" /></label>
+        </p>
+
+        <p>
+          <label>Last name: <input name="lastName" /></label>
+        </p>
+
+        <p>
+          Gender :
+          <label><input type="radio" name="gender" value="male" /> Male</label>
+          <label
+            ><input type="radio" name="gender" value="female" /> Female</label
+          >
+        </p>
+
+        <p>
+          <label>Email:<input type="email" name="email" /></label>
+        </p>
+
+        
+      </fieldset>
+      <br>
+        
+        <textarea rows = "5" cols = "50" >
+            Terms and conditons ...
+        </textarea>
+      <p>
+        <button type="submit">Send Form</button>
+        <button type="submit">Clear form</button>
+      </p>
+    </form>
+  </body>
+</html>
